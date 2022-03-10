@@ -43,7 +43,7 @@ a{
 h1{
     color:#F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     margin-bottom: 0;
     margin-top:0;
 }
@@ -63,7 +63,7 @@ h1{
     background-color:#3882F6;
     color:#F9FAF8;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 30%;
     padding: 5px 10px;
     font-size: 18px;
@@ -71,4 +71,38 @@ h1{
  .img-hero{
      width: 50%;
      height: auto;
+     border: none;
+ }
+
+ .info{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ h2{
+     font-size: 36px;
+     font-weight: bolder;
+     color:#1F2937;
+     padding-top:20px;
+ }
+
+ .item-container{
+     display: flex;
+     padding: 20px 14% 60px 14%;
+     gap: 30px;
+ }
+ img{
+     height: 150px;
+     width: auto;
+     border: 2px solid #3882F6;
+     border-radius: 10px;
+ }
+
+ .info-item{
+     text-align: center;
+ }
+
+ .info-item p{
+     width: 150px;
  }
