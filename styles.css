@@ -124,3 +124,36 @@ h1{
     font-weight:bolder;
     align-self: flex-end;
  }
+
+ .cta{
+     background-color: #3882F6;
+     color:#F9FAF8;
+     display: flex;
+     margin: 60px 14% 50px 14%;
+     padding: 30px 0;
+     border-radius: 10px;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+h3{
+  padding-bottom: 0;
+  margin-bottom: 0;
+ }
+
+
+
+.cta-text p{
+    margin-top: 0;
+}
+
+ button{
+     background-color: #3882F6;
+     color:#F9FAF8;
+     height: fit-content;
+     border: 2px solid #F9FAF8;
+     border-radius: 5px;
+     width: 80px;
+     padding: 3px 0;
+
+ }
